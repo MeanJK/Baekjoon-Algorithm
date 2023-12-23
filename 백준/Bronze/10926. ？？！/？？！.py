@@ -1,0 +1,2 @@
+Astr = input()
+print(Astr + "??!")
