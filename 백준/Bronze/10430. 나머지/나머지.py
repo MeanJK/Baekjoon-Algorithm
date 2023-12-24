@@ -1,0 +1,5 @@
+Anum, Bnum, Cnum = map(int, input().split())
+print(str((Anum+Bnum)%Cnum))
+print(str(((Anum%Cnum) + (Bnum%Cnum))%Cnum))
+print(str((Anum*Bnum)%Cnum))
+print(str(((Anum%Cnum) * (Bnum%Cnum))%Cnum))
